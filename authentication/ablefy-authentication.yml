@@ -1,0 +1,24 @@
+generated: '2026-07-17'
+method: searched
+source: https://ablefy.io/en/features/app-integrations/
+api: ablefy API
+base_url: https://api.elopage.com
+schemes:
+- type: http
+  scheme: bearer
+  name: Access Token
+  location: header
+  header: Authorization
+  description: >-
+    ablefy API requests are authenticated with a seller-generated Access Token
+    presented as a bearer token in the Authorization header. Tokens are created
+    from within the ablefy seller account and scoped to that seller's store
+    data.
+notes: >-
+  ablefy documents API access, webhooks, and access-token authentication as
+  first-party automation features on its app-integrations page. A
+  machine-readable OpenAPI/Swagger description was not published at the time of
+  probing. The production API base host api.elopage.com (the legacy elopage
+  domain retained after the rebrand) returns structured JSON API responses
+  (e.g. {"success":false,"error":"Not Found"}) with Rails-style
+  X-Request-Id/X-Runtime headers and HSTS enabled.
