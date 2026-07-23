@@ -1,22 +1,75 @@
 aid: ablefy
 name: ablefy
-description: 'ablefy is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Applicative SaaS. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  ablefy (formerly elopage) is a German all-in-one sales and monetization
+  platform for coaches, creators, trainers, consultants, and online educators.
+  It provides conversion-optimized checkout with 12+ payment methods (PayPal,
+  Klarna, SEPA, cards, Apple/Google Pay) across multiple currencies, an
+  integrated LMS for online courses, memberships and subscriptions, community
+  and live events, e-ticketing, automated invoicing with international tax/OSS
+  compliance, and an optional reseller (merchant-of-record) model. Sellers can
+  automate workflows through the ablefy API, webhooks, and access-token
+  authentication, plus a Zapier integration and email-marketing connectors. The
+  platform reports 80,000+ sellers, 6M+ customers serviced, and over EUR 2
+  billion in processed transactions across 13+ years of operation.
 url: https://raw.githubusercontent.com/api-evangelist/ablefy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://ablefy.io/wp-content/uploads/2024/10/featured-image.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - partech
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-from-portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Applicative Saas
-apis: []
+- Sales Platform
+- Digital Products
+- Online Courses
+- Payments
+- Checkout
+- Memberships
+- Creator Economy
+- E-Commerce
+- Germany
+- API
+- Webhooks
+apis:
+- name: ablefy API
+  description: >-
+    The ablefy API lets sellers automate access to their store data (orders,
+    products, payments, and customers) using seller-generated access tokens,
+    complemented by webhooks for event notifications. The production API is
+    served from the legacy elopage host (api.elopage.com), which returns JSON
+    API responses. No public OpenAPI description was found at probe time.
+  humanURL: https://ablefy.io/en/features/app-integrations/
+  baseURL: https://api.elopage.com
+  tags:
+  - API
+  - Webhooks
+  - Payments
+  - Digital Products
+  properties:
+  - type: Documentation
+    url: https://ablefy.io/en/features/app-integrations/
+  - type: Authentication
+    url: authentication/ablefy-authentication.yml
+  - type: Webhooks
+    url: https://ablefy.io/en/features/app-integrations/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +78,24 @@ maintainers:
 common:
 - type: Website
   url: https://ablefy.io/
+- type: Pricing
+  url: https://ablefy.io/en/pricing/
+- type: HelpCenter
+  url: https://support.ablefy.io/s/?language=en_US
+- type: Blog
+  url: https://ablefy.io/blog/
+- type: SignUp
+  url: https://myablefy.com/users/sign_up
+- type: Login
+  url: https://myablefy.com/users/sign_in
+- type: TermsOfService
+  url: https://myablefy.com/terms?locale=en
+- type: GitHubOrganization
+  url: https://github.com/elopage
+- type: DomainSecurity
+  url: security/ablefy-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
