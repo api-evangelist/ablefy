@@ -46,6 +46,18 @@ tags:
 - Creator Economy
 - E-Commerce
 - Germany
+- Webhook
+tags_raw:
+- Company
+- Sales Platform
+- Digital Products
+- Online Courses
+- Payments
+- Checkout
+- Memberships
+- Creator Economy
+- E-Commerce
+- Germany
 - API
 - Webhooks
 apis:
@@ -59,6 +71,10 @@ apis:
   humanURL: https://ablefy.io/en/features/app-integrations/
   baseURL: https://api.elopage.com
   tags:
+  - Webhook
+  - Payments
+  - Digital Products
+  tags_raw:
   - API
   - Webhooks
   - Payments
