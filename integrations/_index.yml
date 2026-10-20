@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/brevo/1209716/add-contacts-in-brevo-for-new-elopage-product-payments
   template: https://zapier.com/apps/ablefy/integrations/brevo/1209716/add-contacts-in-brevo-for-new-elopage-product-payments
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-upload-documents-to-lexoffice-for-bookkeeping-purposes-when-new-payments-occur-in-e
@@ -28,6 +29,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/lexware-office/1220215/upload-documents-to-lexoffice-for-bookkeeping-purposes-when-new-payments-occur-in-elopage
   template: https://zapier.com/apps/ablefy/integrations/lexware-office/1220215/upload-documents-to-lexoffice-for-bookkeeping-purposes-when-new-payments-occur-in-elopage
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-add-or-update-cleverreach-subscribers-from-new-elopage-email-opt-ins
@@ -41,6 +43,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/cleverreach/1240477/add-or-update-cleverreach-subscribers-from-new-elopage-email-opt-ins
   template: https://zapier.com/apps/ablefy/integrations/cleverreach/1240477/add-or-update-cleverreach-subscribers-from-new-elopage-email-opt-ins
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-add-subscribers-to-flodesk-from-new-elopage-product-payments
@@ -54,6 +57,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/flodesk/1210919/add-subscribers-to-flodesk-from-new-elopage-product-payments
   template: https://zapier.com/apps/ablefy/integrations/flodesk/1210919/add-subscribers-to-flodesk-from-new-elopage-product-payments
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-invite-new-members-in-skool-for-every-initial-product-payment-in-elopage
@@ -68,6 +72,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/skool/1571065/invite-new-members-in-skool-for-every-initial-product-payment-in-elopage
   template: https://zapier.com/apps/ablefy/integrations/skool/1571065/invite-new-members-in-skool-for-every-initial-product-payment-in-elopage
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-add-tag-to-kit-subscribers-when-new-payments-occur-in-elopage
@@ -82,6 +87,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/kit/1785947/add-tag-to-kit-subscribers-when-new-payments-occur-in-elopage
   template: https://zapier.com/apps/ablefy/integrations/kit/1785947/add-tag-to-kit-subscribers-when-new-payments-occur-in-elopage
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-invite-members-in-skool-when-new-product-payments-occur-in-elopage
@@ -96,6 +102,7 @@
   evidence: https://zapier.com/apps/ablefy/integrations/skool/1669253/invite-members-in-skool-when-new-product-payments-occur-in-elopage
   template: https://zapier.com/apps/ablefy/integrations/skool/1669253/invite-members-in-skool-when-new-product-payments-occur-in-elopage
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-kajabi
@@ -108,6 +115,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/kajabi
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-hubspot
@@ -120,6 +128,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/hubspot
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-close
@@ -132,6 +141,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/close
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-memberspot
@@ -143,6 +153,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/memberspot
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-klicktipp
@@ -154,6 +165,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/klicktipp
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-mailerlite
@@ -166,6 +178,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/mailerlite
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-digimember
@@ -177,6 +190,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/digimember
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-mailchimp
@@ -189,6 +203,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/mailchimp
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-getresponse
@@ -201,6 +216,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/getresponse
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-shopify
@@ -213,6 +229,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/shopify
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-mailerlite-classic
@@ -225,18 +242,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/mailerlite-classic
   source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: ablefy-pipedrive
-  label: Pipedrive
-  partner: pipedrive
-  partner_name: Pipedrive
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/ablefy/integrations/pipedrive
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-zendesk-sell
@@ -249,6 +255,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/zendesk-sell
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-clickup
@@ -261,17 +268,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/clickup
   source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: ablefy-facebook-conversions
-  label: Facebook Conversions
-  partner_name: Facebook Conversions
-  category: Ads & Conversion
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/ablefy/integrations/facebook-conversions
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-google-sheets
@@ -284,18 +281,20 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/google-sheets
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
-- slug: ablefy-teachable
-  label: Teachable
-  partner: teachable
-  partner_name: Teachable
-  category: Online Courses
+- slug: ablefy-facebook-conversions
+  label: Facebook Conversions
+  partner: facebook
+  partner_name: Facebook Conversions
+  category: Ads & Conversion
   type: marketplace
   marketplace: zapier
   channel: ipaas-usage
-  evidence: https://zapier.com/apps/ablefy/integrations/teachable
+  evidence: https://zapier.com/apps/ablefy/integrations/facebook-conversions
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-slack
@@ -308,6 +307,20 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/slack
   source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: ablefy-teachable
+  label: Teachable
+  partner: teachable
+  partner_name: Teachable
+  category: Online Courses
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/ablefy/integrations/teachable
+  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-digistore24
@@ -319,6 +332,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/digistore24
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-wishlist-member
@@ -330,6 +344,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/wishlist-member
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-memberstack
@@ -341,6 +356,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/memberstack
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-funnelcockpit
@@ -352,6 +368,20 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/funnelcockpit
   source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: ablefy-pipedrive
+  label: Pipedrive
+  partner: pipedrive
+  partner_name: Pipedrive
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/ablefy/integrations/pipedrive
+  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-google-drive
@@ -364,6 +394,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/google-drive
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: ablefy-vbout
@@ -376,5 +407,6 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/ablefy/integrations/vbout
   source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
